@@ -40,8 +40,8 @@ git log --oneline
 git status
 
 read -sn1 -p "press any key"
-##git remote add laba2 https://github.com/Mystery-ton/laba2.git
-git pull origin master
+git remote add laba2 https://github.com/Mystery-ton/laba2.git
+git pull laba2 master
 git status
 
 read -sn1 -p "press any key"
